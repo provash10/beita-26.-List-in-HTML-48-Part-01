@@ -1,0 +1,38 @@
+26. List in HTML 48 Part 01
+<link href="css/style.css" rel="stylesheet"/>
+
+list >>>> Order list, unorder list 
+
+====================================
+Inspect Element >>> Search List Style
+====================================
+<ul>
+    <li> list no 1</li>
+    <li> list no 2</li>
+    <li> list no 3</li>
+    <li> list no 4</li>
+</ul>
+
+<ol>
+    <li> list no 1</li>
+    <li> list no 2</li>
+    <li> list no 3</li>
+    <li> list no 4</li>
+</ol>
+
+===================================
+###css
+#stylesheet
+ul{
+    /* list-style-type: disc; */
+    /* list-style-type: circle;  */
+     list-style-type: square;
+}
+
+#index.html
+<ol type="a/A/i">
+        <li> list no 1</li>
+        <li> list no 2</li>
+        <li> list no 3</li>
+        <li> list no 4</li>
+    </ol>
